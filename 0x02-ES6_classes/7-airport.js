@@ -1,4 +1,4 @@
-class Airport {
+export default class Airport {
   constructor(name, code) {
     if (typeof name !== 'string') {
       throw new TypeError('Name must be a string');
@@ -30,4 +30,3 @@ class Airport {
     return this._code;
   }
 }
-  
